@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F2FD;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: row;
+    width: 962px;
+    padding: 32px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1000px) {
+    .pricing-container {
+      flex-direction: column;
+    }
+  }
+
+.pricing-plan {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    max-width: 300px;
+    padding: 32px;
+    flex-direction: column;
+  
+    flex-shrink: 0;
+}
+
+.pricing-plan h2 {
+    color: #202842;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    /* 100% */
+}
+
+.pricing-plan img {
+    width: 20px;
+    height: 20px;
+}
+
+.pricing-plan p {
+    color: #202842;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top:0px;
+    /* 100% */
+}
+
+.pricing-plan .price {
+    color: #202842;
+    font-family: Nunito ;
+    font-size: 36px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: 36px;
+    /* 100% */
+}
+
+.pricing-plan ul {
+    list-style-image: url(./Blue\ Tick.png);
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.pricing-plan ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.pricing-plan button {
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #202842;
+    color: white;
+}
+
+.pricing-plan button:hover {
+    background: #313c61;
+    color: white;
+}
+
+
+
+
+
+/* Dark Pricing Plan*/
+
+
+
+
+
+.pricing-plan-dark {
+    border-radius: 8px;
+    background: #202842;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    max-width: 300px;
+    padding: 32px;
+    flex-direction: column;
+  
+    flex-shrink: 0;
+}
+
+.pricing-plan-dark h2 {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    /* 100% */
+}
+
+.pricing-plan-dark img {
+    width: 20px;
+    height: 20px;
+}
+
+.pricing-plan-dark p {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top:0px;
+    /* 100% */
+}
+
+.pricing-plan-dark .price-dark {
+    color: #fff;
+    font-family: Nunito ;
+    font-size: 36px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: 36px;
+    /* 100% */
+}
+
+.pricing-plan-dark ul {
+    list-style-image: url(./White\ Tick.png);
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.pricing-plan-dark ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:white;
+}
+
+.pricing-plan-dark button {
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #fff;
+    color: #202842;
+}
+
+.pricing-plan-dark button:hover {
+    background: #fff;
+    color: #202842;
+}
