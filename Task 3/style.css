@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to the viewport height for centering */
+    margin: 0;
+}
+
+.centered-div {
+    width: 200px;
+    height: 200px;
+    background-color: #00FF00 ;
+    color: #fff;
+    text-align: center;
+    line-height: 200px; /* Center the text vertically */
+    border-radius: 2px;
+}
