@@ -1,0 +1,212 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .content .header .Menu-items {
+    font-size:medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+}
+
+.container .content .header .Menu-buttons {
+    font-size:medium;
+    font-family: Verdana;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc ;
+    margin: 10px;
+}
+.container .content .header .Menu-buttons-active {
+    font-size:medium;
+    font-family: Verdana;
+    font-weight: 500;
+    background-color: #FB792B;
+    color: white;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc ;
+    margin: 10px;
+
+}
+
+.Main-Body{
+   text-align:left;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size:24px;
+
+}
+#safety{
+    font-family: Verdana;
+    font-weight: 600;
+    color:#01BB0A;
+}
+#security{
+    font-family: Verdana;
+    font-weight: 600;
+    color:#FB792B;
+}
+#Punchtuality{
+    font-family: Verdana;
+    font-weight: 600;
+    color:#213D77;
+}
+
+.btns-active{
+    font-size:large;
+    font-family: Verdana;
+    font-weight: 600;
+    background-color: #213D77;
+    color: white;
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc ;
+    margin: 10px;
+}
+
+.btns{
+    font-size:large;
+    font-family: Verdana;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000 ;
+    margin: 10px;
+}
+.container {
+    display: flex;
+    height: 100vh;
+  width:auto;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.route{
+    font-family: Verdana;
+    font-weight: 700;
+    font-size:medium;
+    text-align: left;
+    display:flex;
+  justify-content:space-between;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border:2px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+    align-items:center;
+   
+}
+
+.route1{
+    font-family: Verdana;
+    font-weight: 700;
+    font-size:medium;
+    text-align: left;
+    display:flex;
+  justify-content:space-between;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border:2px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+    align-items:center;
+   
+}
+
+#route-img{
+    justify-content:center;
+    align-items:center;
+    width:60px;
+    height:auto;
+}
+.route-from-to {
+    display:flex;
+}
+.route-from-to p{
+     color:#333333;
+     font-family: Verdana;
+    font-weight: 400;
+
+}
+
+.route-from-to1 {
+    display:flex;
+}
+.route-from-to1 p{
+     color:#333333;
+     font-family: Verdana;
+    font-weight: 400;
+
+}
+.route-from-to img{
+    width:70px;
+    height:auto;
+    margin-top:50px;
+    align-items:center;
+    justify-content:center;
+    margin-right:10px;
+}
+
+.route-from-to1 img{
+    width:70px;
+    height:auto;
+   
+    align-items:center;
+    justify-content:center;
+    margin-right:10px;
+}
+
+
+.Search-btn {
+    font-family: Verdana;
+    font-weight: 700;
+    font-size:larger;
+    background-color: #01BB0A;
+    color: white;
+    width: 99%;
+    height: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+.Search-btn:hover {
+    background-color: #038b0a;
+}
+
+.image {
+    flex: 0.5;
+    background: url('./railway.png') no-repeat center center/cover;
+}
+
